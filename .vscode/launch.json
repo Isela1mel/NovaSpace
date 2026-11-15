@@ -1,0 +1,11 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    { "name": "▶ Vita Orbital · Menú principal", "type": "debugpy", "request": "launch",
+      "program": "${workspaceFolder}/main.py", "cwd": "${workspaceFolder}", "console": "integratedTerminal" },
+    { "name": "Astronautas (solo, sin menú)", "type": "debugpy", "request": "launch",
+      "module": "astronautas", "cwd": "${workspaceFolder}", "console": "integratedTerminal" },
+    { "name": "Médicos (solo, sin menú)", "type": "debugpy", "request": "launch",
+      "module": "medicos", "cwd": "${workspaceFolder}", "console": "integratedTerminal" }
+  ]
+}
